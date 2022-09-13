@@ -12,7 +12,7 @@ body {
     line-height: 1.5;
 }
 
-h1 {
+.yes {
     font-weight: 400;
     font-size: 60px;
     line-height: 1;
@@ -27,6 +27,8 @@ a {
 }
 
 #twit { color: #1DA1F2;}
+
+#yout {color: red;}
 
 #main {
     position: relative;
@@ -87,12 +89,12 @@ video {
     margin-top: 25px;
     border: 2px solid white;
     padding: 10px 30px;
-    background-color: #4b5163;
-    /* A elements will NOT inherit text color like other text elements will. Must be applied directly */
+    background-color: red;
     color: white;
     border-radius: 10px;
     font-size: 20px;
     opacity: 0.8;
+    font-family: "Press Start 2P";
 }
 
 #click:hover {
@@ -120,3 +122,24 @@ i {
     font-size: 48px;
     margin: 0 5px;
 }
+
+#para { text-align: center;
+    font-size: 90px;
+    font-family: "Press Start 2P";
+}
+
+#tophat {color: white; background-color: black;
+    line-height: 205px;
+    text-align: center;
+    font-size: 90px;
+    font-family: "Press Start 2P";
+}
+
+/*  */
+
+img { width: 20.5%; margin: 1.25%; 
+    float: left;
+    }
+
+    p {text-align: center;
+        font-size: 30px; }
